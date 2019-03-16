@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_text_after_image">20dp</dimen>
+    <dimen name="city_size_text">32sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="dp">1dp</dimen>
+</resources>

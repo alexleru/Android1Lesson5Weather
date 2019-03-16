@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="label">Погода</string>
+    <string name="loading_data">Данные загружаются</string>
+    <string name="btn_search">Найти</string>
+    <string name="show_wind">Показать данные о ветре</string>
+    <string name="show_humidity">Показать данные о влажности</string>
+    <string name="show_pressure">Показать данные о давлении</string>
+    <string name="city_name">Город</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding">
+    <TextView
+        android:id="@+id/weather"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label"/>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        tools:ignore="LabelFor,UnusedAttribute" />
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/show_wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_wind"
+        android:textOn="@string/true_on"
+        android:textOff="@string/false_off"/>
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/show_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_humidity"
+        android:textOn="@string/true_on"
+        android:textOff="@string/false_off"/>
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/show_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_pressure"
+        android:textOn="@string/true_on"
+        android:textOff="@string/false_off"/>
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_search"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
